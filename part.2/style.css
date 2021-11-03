@@ -10,17 +10,30 @@ body {
   margin:0 auto;
 }
 #info {
-    display: flex;
     font-size: 20px;
+}
+#info > div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 18%;
+}
+ul:first-child {
+    margin-left: 20px;
+}
+ul:nth-child(2) {
+    margin-right: 130px;
+}
+ul:last-child {
+    margin-right: 20px;
 }
 .grid {
     display: grid;
     grid-template-columns: repeat(4, 250px);
     grid-template-rows: repeat(4, 200px);
-    gap: 10px;
+    gap: 15px;
 }
 .header {
-    color: white;
+    color: rgb(201, 198, 198);
     background-color: black;
     grid-area: "header";
     grid-column-start: 1;
@@ -29,6 +42,10 @@ body {
 .bad {
     color: black;
     background-color: rgb(241, 72, 42);
+    font-size: 250px;
+    font-weight: 700;
+    display: flex;
+    align-items: flex-end;
     grid-area: "bad";
     grid-column-start: 1;
     grid-column-end: 3;
