@@ -9,23 +9,43 @@ body {
   height: 100vh;
   margin:0 auto;
 }
+#info {
+    display: flex;
+    font-size: 20px;
+}
 .grid {
     display: grid;
-    grid-template-columns: repeat(4, 200px);
+    grid-template-columns: repeat(4, 250px);
     grid-template-rows: repeat(4, 200px);
+    gap: 10px;
 }
 .header {
+    color: white;
     background-color: black;
+    grid-area: "header";
+    grid-column-start: 1;
+    grid-column-end: 4;
 }
-.content {
-    background-color: tomato;
+.bad {
+    color: black;
+    background-color: rgb(241, 72, 42);
+    grid-area: "bad";
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
 }
-.main {
-    background-color: tomato;
+.bad-next {
+    color: black;
+    background-color: rgb(241, 72, 42);
+    grid-area: "bad-next";
+    grid-row-start: 2;
+    grid-row-end: 4;
 }
-.nav {
-    background-color: tomato;
-}
-.footer {
-    background-color: tomato;
+.religion {
+    color: black;
+    background-color: rgb(241, 72, 42);
+    grid-area: "religion";
+    grid-column-start: 1;
+    grid-column-end: 4;
 }
