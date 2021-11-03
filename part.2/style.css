@@ -26,7 +26,6 @@ ul:nth-child(2) {
 ul:last-child {
     margin-right: 20px;
 }
-
 .grid {
     display: grid;
     grid-template-columns: repeat(3, 260px);
