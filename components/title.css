@@ -1,0 +1,16 @@
+.title {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.title_first {
+    margin-left: 20px;
+    font-size: 100px;
+    font-weight: 900;
+}
+.title_second {
+    margin-top: 50px;
+    margin-right: 20px;
+    font-size: 40px;
+    font-weight: 700;
+}

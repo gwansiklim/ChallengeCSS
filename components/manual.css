@@ -1,0 +1,27 @@
+.manual {
+    width: 650px;
+    margin-top: 20px;
+    font-size: xx-small;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.manual_first {
+    margin-left: 20px;
+    font-weight: 900;
+    display: flex;
+    flex-direction: column;
+}
+.manual_second {
+    margin-right: 200px;
+    font-weight: 900;
+    display: flex;
+    flex-direction: column;
+}
+.manual_third {
+    margin-right: 20px;
+    font-weight: 900;
+    display: flex;
+    justify-self: flex-end;
+}
