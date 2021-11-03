@@ -9,3 +9,23 @@ body {
   height: 100vh;
   margin:0 auto;
 }
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    grid-template-rows: repeat(4, 200px);
+}
+.header {
+    background-color: black;
+}
+.content {
+    background-color: tomato;
+}
+.main {
+    background-color: tomato;
+}
+.nav {
+    background-color: tomato;
+}
+.footer {
+    background-color: tomato;
+}
