@@ -1,5 +1,6 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500;600;700;800&family=Oswald:wght@500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500;600;700;800&family=Oswald:wght@200;300;500;600;700&display=swap');
+
 
 body {
     background-color:#DDE1D4;
@@ -19,40 +20,40 @@ body {
 }
 .header {
     font-size: 30px;
-    font-weight: 600;
+    font-weight: 800;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: tomato;
-    background-color: rgb(160, 221, 203);
+    color: #F74504;
+    background-color: #D9E7DE;
     grid-column: span 2;
     grid-row: span 2;
 }
 .content {
     font-size: 30px;
-    font-weight: 600;
+    font-weight: 800;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
-    background-color: rgb(33, 109, 18);
+    color: #FFFFFF;
+    background-color: #008A69;
     grid-column: span 2;
     grid-row: span 2;
 }
 .nav {
     font-size: 30px;
-    font-weight: 600;
+    font-weight: 800;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
-    background-color: tomato;
+    color: #FFFFFF;
+    background-color: #F44508;
     grid-column: span 2;
     grid-row: span 2;
 }
 .footer {
     font-size: 15px;
-    font-weight: 600;
+    font-weight: 800;
     grid-column: span 2;
     grid-row: span 2;
     display: grid;
@@ -63,8 +64,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: tomato;
-    background-color: thistle;
+    color: #F74504;
+    background-color: #F7ACC4;
     grid-column: span 2;
     grid-row: span 2;
 }
@@ -72,8 +73,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
-    background-color: powderblue;
+    color: #FFFFFF;
+    background-color: #5F5FA9;
     grid-column: span 2;
     grid-row: span 2;
 }
@@ -81,8 +82,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: tomato;
-    background-color: orange;
+    color: #F74504;
+    background-color: #FEC027;
     grid-column: span 2;
     grid-row: span 2;
 }
@@ -91,7 +92,7 @@ body {
     justify-content: center;
     align-items: center;
     color: white;
-    background-color: palevioletred;
+    background-color: #F87374;
     grid-column: span 2;
     grid-row: span 2;
 }
