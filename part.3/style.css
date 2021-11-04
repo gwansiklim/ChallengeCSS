@@ -1,52 +1,97 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500;600;700;800&family=Oswald:wght@500;600;700&display=swap');
 
 body {
     background-color:#DDE1D4;
     padding:15px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: "Open Sans", sans-serif;
     width: 100%;
     height: 100vh;
     margin:0 auto;
 }
 #grid {
-    display: flex;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-    width: 700px;
-    height: 350px;
-}
-.header {
-    color: tomato;
-    background-color: rgb(160, 221, 203);
-}
-.content {
-    color: white;
-    background-color: rgb(33, 109, 18);
-}
-.nav {
-    color: white;
-    background-color: tomato;
-}
-.footer {
+    width: 600px;
+    height: 300px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(4, 1fr);
     
 }
+.header {
+    font-size: 30px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: tomato;
+    background-color: rgb(160, 221, 203);
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.content {
+    font-size: 30px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(33, 109, 18);
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.nav {
+    font-size: 30px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: tomato;
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.footer {
+    font-size: 15px;
+    font-weight: 600;
+    grid-column: span 2;
+    grid-row: span 2;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
 .footer_one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: tomato;
     background-color: thistle;
+    grid-column: span 2;
+    grid-row: span 2;
 }
 .footer_two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: white;
     background-color: powderblue;
+    grid-column: span 2;
+    grid-row: span 2;
 }
 .footer_three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: tomato;
     background-color: orange;
+    grid-column: span 2;
+    grid-row: span 2;
 }
 .footer_four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: white;
     background-color: palevioletred;
+    grid-column: span 2;
+    grid-row: span 2;
 }
