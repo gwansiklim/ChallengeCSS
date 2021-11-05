@@ -12,3 +12,7 @@
 ## part.3 <a href= "https://replit.com/@lim718/Ostrich">결과물 보기<a> 
   
 * grid 응용하여 만들기.
+
+## part.4 <a href= "https://replit.com/@lim718/Bluprint">결과물 보기<a> 
+  
+* grid 응용하여 만들기 part.2 반응형으로 만들기(크기를 줄이거나 크게해도 고정되게 만들기).
