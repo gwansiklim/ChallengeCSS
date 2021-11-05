@@ -46,7 +46,7 @@ img {
     padding: 20px;
 }
 .content > div:nth-child(3) {
-    background-color: tomato;
+    background-color: #FD4815;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
