@@ -1,0 +1,13 @@
+.top {
+    position: relative;
+    background-color: white;
+    color: tomato;
+    grid-column: 1 / 4;
+    height: 20px;
+    font-size: 14px;
+    font-weight: 700;
+    overflow: hidden;
+    white-space: nowrap;
+    padding-top: 10px;
+    padding-right: 30px;
+}
