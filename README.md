@@ -20,3 +20,7 @@
 ## part.5 <a href= "https://replit.com/@lim718/Bluprint-1#index.html">결과물 보기<a> 
   
 * grid 응용하여 만들기 part.3 지금까지 한거 응용해보기
+
+## part.6 <a href= "https://replit.com/@lim718/Bluprint-2#style.css">결과물 보기<a> 
+  
+* grid 응용하여 만들기 
