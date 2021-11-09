@@ -1,0 +1,16 @@
+.left_imge{
+    width: 410px;
+    height: 465px;
+    margin-right: -500px; 
+}
+
+.right img {
+    width: 410px;
+    height: 465px;
+    margin-left: -155px;
+}
+
+.img_one {
+    width: 20px;
+    height: 20px;
+}
