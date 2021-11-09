@@ -1,16 +1,24 @@
 .left_imge{
-    width: 410px;
+    position: relative;
+    width: 470px;
     height: 465px;
     margin-right: -500px; 
 }
 
 .right img {
+    position: relative;
     width: 410px;
     height: 465px;
     margin-left: -155px;
 }
 
-.img_one {
-    width: 20px;
-    height: 20px;
+span {
+    display: inline-block;
+    transform: rotate(90deg);
+}
+
+.left_icon img {
+    width: 15px;
+    height: 15px;
+    padding: 5px 5px 2px 6px;
 }
