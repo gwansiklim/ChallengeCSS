@@ -1,6 +1,7 @@
 .top {
     position: relative;
     background-color: white;
+    border-bottom: 7px solid tomato;
     color: tomato;
     grid-column: 1 / 4;
     height: 20px;
