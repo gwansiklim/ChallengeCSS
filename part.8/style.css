@@ -1,33 +1,189 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
-@import "./components/header.css";
-@import "./components/main.css";
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   width: 100%;
-  height: 100vh;
+  height: 100vh; 
+  display: flex;
+}
+.wrap {
+  width: 100vh;
+  height: 100%;
+}
+.left {
+  background-color: #ff7400;
+  color: #ff0300;
+  width: 98vh;
+  height: 98%;
   display: grid;
-  grid-template-columns: 50px repeat(2, 1fr) 200px 50px repeat(2, 1fr);
+  grid-template-rows: repeat(auto-fit, 1fr);
+  gap: 1px;
+  padding: 5px;
 }
-header {
-    background-color: #ff7400;
-    color: #ff0300;
-    display: grid;
-    grid-template-columns: 30px 400px 215px;
-    grid-template-rows: repeat(6,1fr);
-    grid-column: span 4;
+.left__box {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #ff0300;
+  display: flex;
+}
+.left__menu {
+  width: 5%;
+  height: 100%;
+  border-right: 1px solid #ff0501;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left__menu p {
+  color: #ff0501;
+  font-size: 10px;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+}
+.left__main {
+  width: 65%;
+  height: 100%;
+  border-right: 1px solid #ff0501;
+  display: flex;
+  align-items: center;
+}
+.left__main p {
+  text-transform: uppercase;
+  font-size: 64px;
+  padding-left: 10px;
+}
+.left__box:nth-child(2),
+.lett-box:nth-child(2) .left__contents {
+  color: white;
+  border: 1px solid white;
+  z-index: 10;
+}
+
+.left__box:nth-child(2) .left__menu,
+.left__box:nth-child(2) .left__main  {
+  border-right: 1px solid white;
+}
+
+.left__box:nth-child(2) .left__menu p {
+  color: white;
+}
+
+.left__box:nth-child(2) .left__contents .left__content__one {
+  border-bottom: 1px solid white;
+}
+.left__box:nth-child(2) .left__contents .box {
+  background-color: white;
+}
+
+.left__contents {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.left__content__one {
+  border-bottom: 1px solid #ff0501;
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left__content__one p ,
+.box {
+  font-size: 8px;
+}
+.left__content__two {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+.box { 
+  width: 80%;
+  height: 60%;
+  background-color: #ff0501;
+  color: #ff7400;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.middle {
+  width: 7vh;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.icon {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: black;
+  position: absolute;
+  top: 47%;
+}
+
+.middle__top {
+  width: 100%;
+  height: 50%;
+  background-color: #dc00dd;
+  display: flex;
+  justify-content: center;
+}
+ .middle__top p{
+  padding-top: 20px;
+  writing-mode: vertical-rl;
+ } 
+.middle__bottom {
+  width: 100%;
+  height: 50%;
+  background-color: #1a00ff;
+  display: flex;
+  justify-content: center;
+}
+.middle__bottom p {
+  padding-top: 10px;
+  writing-mode: vertical-rl; 
+  transform: rotate(180deg);
+}
+
+.right {
+  width: 70vh;
+  height: 100%;
+  background-color: #ff0501;
+  display: grid;
+  grid-template-columns: repeat(2, 35vh);
+  grid-template-rows: 8vh repeat(auto-fit, minmax(25vh, 1fr));
+}
+
+.right__header {
+  grid-column: 1 / -1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px;
+}
+
+.right__card {
+  border-top: 1px solid black;
+  margin: 5px 5px 5px 5px;
+}
+
+.right__card h2 {
+  margin: 15px 0px -5px 0px;
+  font-size: 18px;
+}
+
+.right__card p {
+  font-size: 7px;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 
-main {
-    display: grid;
-    grid-template-rows: repeat(2, 1fr);
-    grid-column: 5 / -3;
-}
-footer {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 80px repeat(6, 1fr);
-    background-color: #ff0300;
-    grid-column: 6 / -1;
-}
+
