@@ -28,3 +28,11 @@
 ## part.7 <a href= "https://replit.com/@lim718/Bluprint-3#index.html">결과물 보기<a> 
   
 * grid 응용하여 만들기 
+
+## part.8 <a href= "https://replit.com/@lim718/Bluprint-4#index.html">결과물 보기<a> 
+  
+* grid 응용하여 만들기 
+
+## part.last <a href= "https://replit.com/@lim718/Bluprint-7#style.css">결과물 보기<a> 
+  
+* grid 응용하여 만들기 최종
