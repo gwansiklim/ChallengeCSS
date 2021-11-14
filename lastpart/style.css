@@ -4,14 +4,149 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   width: 100%;
   height: 100vh;
+  background-color: #89acd0;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: 1fr 1fr 2fr;
+  grid-template-rows: 1.5fr 0.5fr;
 }
 header {
-    background-color: blue;
-    grid-column: spa 1;
+    grid-column: span 1;
+    grid-row: -1 / 1;
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    border-top: 3px solid white;
+    border-left: 3px solid white;
+    color: white;
 }
-article {
-    background-color: red;
-    grid-column: sapn 1;
+.header__top, .main-top{
+    color: red;
+    grid-column: 1 / -1;
+}
+.header__top {
+  border-bottom: none;
+}
+.header__title, .main-top__title{
+    font-size: 10px;
+    margin-bottom: 10%;
+    padding: 10px;
+}
+.header__middle{
+    display: flex;
+    flex-direction: column;
+}
+.header__middle h1,
+.main-top__middle h1 {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px;
+}
+.header__btn {
+    display: flex;
+    flex-direction: column;
+}
+.header__btn li {
+  border-bottom: 2px solid white;
+  padding: 5px;
+}
+.header__btn li:hover {
+  color: #89acd0;
+  background-color: white;
+}
+.header__btn span,
+.main-top__middle p {
+  padding: 5px;
+  font-size: 12px;
+  font-weight: 600;
+}
+.header__bottom {
+    grid-column: 1 / -1;
+    grid-row: 2 / -1;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 10px;
+}
+main {
+    grid-column: span 1;
+    grid-row: -1 / 1;
+    display: grid;
+    grid-template-rows: 1.7fr 0.3fr;
+    border-top: 3px solid white;
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+}
+.main-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-top: 3px solid white;
+    border-bottom: 2px solid white;
+    color: white;
+}
+.main-bottom span:first-child {
+    padding: 10px;
+}
+
+.main-bottom span:last-child {
+    padding: 10px;
+}
+.main-bottom span:last-child p {
+    font-size: 13px;
+}
+footer {
+    grid-column: span 1;
+    grid-row: -1 / 1;
+    display: grid;
+    grid-template-rows: 1.7fr 0.3fr;
+}
+.footer-top {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border-top: 3px solid white;
+}
+.footer-top__left {
+    background: url("https://lh3.googleusercontent.com/proxy/G1YW0d15Owk6e3iEKl4IJSyOcR36U9Yv90X9YC3Kwvl_9g8MriaijQVEdsfI-KWcL3lo7yzcsvuxENCAQ5ldabfPKPaUZNURVz4dUsGib_jb");
+    background-position: center;
+    background-size: cover;
+}
+.footer-top__left:hover {
+  background: url("https://news.hmgjournal.com/images_n/contents/veloster-n-circuit-driving-checklist1.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.footer-top__right {
+  display: grid;
+  grid-template-rows: 2fr 0.5fr 0.5fr;
+}
+.footer-top__right-top {
+    background: url("http://newsimg.hankookilbo.com/2018/04/22/201804220711852335_4.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.footer-top__right-top:hover {
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRg3Gzzy0uYaqoHHBRSS1_n0VTe9LlImiB0lw&usqp=CAU");
+    background-position: center;
+    background-size: cover;
+}
+.footer-top__right-middle {
+    display: grid;
+    grid-template-columns: 1fr 0.5fr;
+}
+.footer-top__right-middle__img {
+    background: url("https://mblogthumb-phinf.pstatic.net/MjAxODEyMjFfMTI4/MDAxNTQ1Mzc4NDI2NTE3.BDVaiffwf6PgzK2bwN4UdZYjrLSpVUKLmZvvdDYOSmAg.UACJUQZVMiTh1hQivJ758hza-I33sbKSLywUgLBIjzwg.JPEG.gi6749/vvx.jpg?type=w800");
+    background-position: center;
+    background-size: cover;
+}
+.footer-top__right-middle__img1 {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+
+
+
+.footer__botoom {
+    background-color: violet;
+    grid-row: 2 / -1;
 }
