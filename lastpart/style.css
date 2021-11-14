@@ -30,6 +30,9 @@ header {
     margin-bottom: 10%;
     padding: 10px;
 }
+.header__title:hover,.main-top__title:hover {
+    color: white;
+}
 .header__middle{
     display: flex;
     flex-direction: column;
@@ -41,6 +44,7 @@ header {
     padding: 10px;
 }
 .header__btn {
+    color: white;
     display: flex;
     flex-direction: column;
 }
@@ -59,6 +63,7 @@ header {
   font-weight: 600;
 }
 .header__bottom {
+    color: red;
     grid-column: 1 / -1;
     grid-row: 2 / -1;
     padding: 10px;
@@ -76,6 +81,9 @@ main {
     border-left: 3px solid white;
     border-right: 3px solid white;
 }
+.main-top__middle p {
+    color: white;
+}
 .main-bottom {
     display: flex;
     flex-direction: column;
@@ -85,13 +93,16 @@ main {
     color: white;
 }
 .main-bottom span:first-child {
+    color: red;
     padding: 10px;
 }
 
 .main-bottom span:last-child {
+    color: red;
     padding: 10px;
 }
 .main-bottom span:last-child p {
+    color: white;
     font-size: 13px;
 }
 footer {
@@ -106,12 +117,13 @@ footer {
     border-top: 3px solid white;
 }
 .footer-top__left {
-    background: url("https://lh3.googleusercontent.com/proxy/G1YW0d15Owk6e3iEKl4IJSyOcR36U9Yv90X9YC3Kwvl_9g8MriaijQVEdsfI-KWcL3lo7yzcsvuxENCAQ5ldabfPKPaUZNURVz4dUsGib_jb");
+    background: url("./img/전체1.png");
     background-position: center;
     background-size: cover;
+    border-right: 3px solid white;
 }
 .footer-top__left:hover {
-  background: url("https://news.hmgjournal.com/images_n/contents/veloster-n-circuit-driving-checklist1.jpg");
+  background: url("./img/전체2.png");
   background-position: center;
   background-size: cover;
 }
@@ -120,33 +132,92 @@ footer {
   grid-template-rows: 2fr 0.5fr 0.5fr;
 }
 .footer-top__right-top {
-    background: url("http://newsimg.hankookilbo.com/2018/04/22/201804220711852335_4.jpg");
+    background: url("./img/뒷모습1.png");
     background-position: center;
     background-size: cover;
 }
 .footer-top__right-top:hover {
-    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRg3Gzzy0uYaqoHHBRSS1_n0VTe9LlImiB0lw&usqp=CAU");
+    background: url("./img/뒷모습2.png");
     background-position: center;
     background-size: cover;
 }
 .footer-top__right-middle {
     display: grid;
     grid-template-columns: 1fr 0.5fr;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
 }
 .footer-top__right-middle__img {
-    background: url("https://mblogthumb-phinf.pstatic.net/MjAxODEyMjFfMTI4/MDAxNTQ1Mzc4NDI2NTE3.BDVaiffwf6PgzK2bwN4UdZYjrLSpVUKLmZvvdDYOSmAg.UACJUQZVMiTh1hQivJ758hza-I33sbKSLywUgLBIjzwg.JPEG.gi6749/vvx.jpg?type=w800");
+    background: url("./img/실내.png");
     background-position: center;
     background-size: cover;
+    border-right: 3px solid white;
 }
 .footer-top__right-middle__img1 {
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: repeat(2, 1fr);
+}
+.right__small__one {
+    background: url("./img/handle.png");
+    background-position: center;
+    background-size: cover;
+    border-right: 3px solid white;
+    border-bottom: 3px solid white;
+}
+.right__small__two {
+    background: url("./img/stick.png");
+    background-position: center;
+    background-size: cover;
+    border-right: 3px solid white;
+}
+.footer-top__right-bottom {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+}
+.footer__bottom__img1 {
+    background: url("./img/시트.png");
+    background-position: center;
+    background-size: cover;
+    border-right: 3px solid white;
+}
+.footer__bottom__img2 {
+    background: url("./img/뒷자석.png");
+    background-position: center;
+    background-size: cover;
+    border-right: 3px solid white;
 }
 
-
-
-
-.footer__botoom {
-    background-color: violet;
-    grid-row: 2 / -1;
+.footer__bottom {
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 1fr;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+}
+.footer__bottom__left {
+    background: url("./img/휠.png");
+    background-position: center;
+    background-size: cover;
+    border-right: 3px solid white;
+}
+.footer__bottom__middle {
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+}
+.footer__bottom__middle-small1{
+    background: url("./img/engin.png");
+    background-position: center;
+    background-size: cover;
+    border-right: 3px solid white;
+}
+.footer__bottom__middle-small2{
+    background: url("./img/mawooora.png");
+    background-position: center;
+    background-size: cover;
+    border-right: 3px solid white;
+}
+.footer__bottom__right {
+    background: url("./img/injea.png");
+    background-position: center;
+    background-size: cover;
+    border-right: 3px solid white;
 }
